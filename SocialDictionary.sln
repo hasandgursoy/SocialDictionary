@@ -29,9 +29,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projections", "Projections"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SocialDictionary.Projections.FavoriteService", "src\Projections\SocialDictionary.Projections.FavoriteService\SocialDictionary.Projections.FavoriteService.csproj", "{4655560D-BE02-407F-A058-D297CA406239}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialDictionary.Projections.UserService", "src\Projections\SocialDictionary.Projections.User\SocialDictionary.Projections.UserService.csproj", "{A580C5BA-43C1-4479-8B8E-53D985833BFC}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialDictionary.Projections.VoteService", "src\Projections\SocialDictionary.Projections.VoteService\SocialDictionary.Projections.VoteService.csproj", "{13FAF23B-BF7C-4415-B3A2-B60E3D303455}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialDictionary.Projections.UserService", "src\Projections\SocialDictionary.Projections.UserService\SocialDictionary.Projections.UserService.csproj", "{62E4A01A-D018-45CD-9B4E-82B6963D9286}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clients", "Clients", "{4B0002AB-0EE7-43A0-B3C3-CA357D63E16A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocialDictionary.WebApp", "src\Clients\BlazorWeb\SocialDictionary.WebApp\SocialDictionary.WebApp.csproj", "{DE8FE97C-6AD9-4621-B23F-1856DDAA0B55}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,14 +67,18 @@ Global
 		{4655560D-BE02-407F-A058-D297CA406239}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4655560D-BE02-407F-A058-D297CA406239}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4655560D-BE02-407F-A058-D297CA406239}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A580C5BA-43C1-4479-8B8E-53D985833BFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A580C5BA-43C1-4479-8B8E-53D985833BFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A580C5BA-43C1-4479-8B8E-53D985833BFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A580C5BA-43C1-4479-8B8E-53D985833BFC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{13FAF23B-BF7C-4415-B3A2-B60E3D303455}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{13FAF23B-BF7C-4415-B3A2-B60E3D303455}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13FAF23B-BF7C-4415-B3A2-B60E3D303455}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13FAF23B-BF7C-4415-B3A2-B60E3D303455}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62E4A01A-D018-45CD-9B4E-82B6963D9286}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62E4A01A-D018-45CD-9B4E-82B6963D9286}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62E4A01A-D018-45CD-9B4E-82B6963D9286}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62E4A01A-D018-45CD-9B4E-82B6963D9286}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE8FE97C-6AD9-4621-B23F-1856DDAA0B55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE8FE97C-6AD9-4621-B23F-1856DDAA0B55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE8FE97C-6AD9-4621-B23F-1856DDAA0B55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE8FE97C-6AD9-4621-B23F-1856DDAA0B55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -88,8 +96,10 @@ Global
 		{38BBD9BB-2F12-40A3-A8C7-FBD9E9F6BB46} = {3051B837-2586-4F65-97E1-0A6DEB2DB508}
 		{FE915A24-322C-4A61-99B2-669803AB3D99} = {9593E2DD-C111-4033-A00C-0225517DCF34}
 		{4655560D-BE02-407F-A058-D297CA406239} = {FE915A24-322C-4A61-99B2-669803AB3D99}
-		{A580C5BA-43C1-4479-8B8E-53D985833BFC} = {FE915A24-322C-4A61-99B2-669803AB3D99}
 		{13FAF23B-BF7C-4415-B3A2-B60E3D303455} = {FE915A24-322C-4A61-99B2-669803AB3D99}
+		{62E4A01A-D018-45CD-9B4E-82B6963D9286} = {FE915A24-322C-4A61-99B2-669803AB3D99}
+		{4B0002AB-0EE7-43A0-B3C3-CA357D63E16A} = {9593E2DD-C111-4033-A00C-0225517DCF34}
+		{DE8FE97C-6AD9-4621-B23F-1856DDAA0B55} = {4B0002AB-0EE7-43A0-B3C3-CA357D63E16A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DDAB550C-A3A6-497E-9D2A-7CE421572A6E}
